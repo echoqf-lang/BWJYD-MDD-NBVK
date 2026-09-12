@@ -4,7 +4,7 @@ Reproducible data and code accompanying the computational evaluation of Bawei Ji
 
 ## Repository status
 
-Version 1.0.0 is the initial public reproducibility release accompanying the manuscript submission. It contains the frozen analysis code, derived data, documented computational environments, and audited molecular-docking materials used in the study. The Zenodo DOI for this release will be added after archival deposit.
+Version 1.0.0 is the initial public reproducibility release accompanying the manuscript submission. It contains the frozen analysis code, derived data, documented computational environments, and audited molecular-docking materials used in the study. The archived release is available at https://doi.org/10.5281/zenodo.22724808.
 
 ## Repository contents
 
@@ -42,7 +42,7 @@ The repository supports reproducibility of computational analyses. Network assoc
 
 ## Citation
 
-Machine-readable citation metadata are provided in `CITATION.cff`. The associated article citation and Zenodo DOI will be added when they become available.
+Machine-readable citation metadata are provided in `CITATION.cff`. The archived v1.0.0 release should be cited using https://doi.org/10.5281/zenodo.22724808. The associated article citation will be added when it becomes available.
 
 ## License
 

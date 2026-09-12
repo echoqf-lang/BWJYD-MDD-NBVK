@@ -5,6 +5,8 @@ type: dataset
 version: 1.0.0
 date-released: 2026-09-12
 repository-code: "https://github.com/echoqf-lang/BWJYD-MDD-NBVK"
+doi: "10.5281/zenodo.22724808"
+url: "https://doi.org/10.5281/zenodo.22724808"
 authors:
   - family-names: "Yin"
     given-names: "Zhongyong"
