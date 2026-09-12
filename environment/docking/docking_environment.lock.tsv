@@ -1,0 +1,8 @@
+software	version	build	channel_or_source	environment
+Python	3.11.15	h0c9c016_1_cpython	conda-forge	docking
+AutoDock Vina	1.2.7	py311h8325047_0	conda-forge	docking
+Meeko	0.7.1	pyhd8ed1ab_1	conda-forge	docking
+Open Babel	3.1.1	py311h292ccdb_9	conda-forge	docking
+RDKit	2025.09.5	py311h756a433_0	conda-forge	docking
+fpocket	4.2.2	hfb15e11_0	conda-forge	docking
+PyMOL Open-Source	3.1.0	py311ha8b00f3_0	conda-forge	docking

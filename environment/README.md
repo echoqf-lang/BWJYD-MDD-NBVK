@@ -5,3 +5,4 @@ This directory records the software versions, package dependencies, session info
 The numerical seeds are algorithm parameters. Human-readable labels used in filenames are mapped to the corresponding values in `docs/nbvk/NBVK_SEED_MAP.tsv` and `docking_reproducibility/RUN_SEED_MAP.tsv`.
 
 The package-version snapshot for the GEO analysis is stored in `geo/environment.lock.tsv`.
+The molecular-docking software snapshots are stored in `docking/docking_environment.lock.tsv` and `docking/plip_environment.lock.tsv`.

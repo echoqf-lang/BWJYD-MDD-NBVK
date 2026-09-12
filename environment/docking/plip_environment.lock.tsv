@@ -1,0 +1,5 @@
+software	version	build	channel_or_source	environment
+Python	3.11.15	h0c9c016_1_cpython	conda-forge	plip
+PLIP	2.4.0	pypi_0	PyPI	plip
+Open Babel	3.1.1	py311h292ccdb_9	conda-forge	plip
+NumPy	2.4.6	py311hbd1492f_0	conda-forge	plip

@@ -4,7 +4,7 @@ Reproducible data and code accompanying the computational evaluation of Bawei Ji
 
 ## Repository status
 
-This repository is being prepared for manuscript submission. Files and documentation are undergoing provenance, licensing, privacy, and reproducibility review. Results should not be treated as a final archival release until a versioned release and DOI are provided.
+Version 1.0.0 is the initial public reproducibility release accompanying the manuscript submission. It contains the frozen analysis code, derived data, documented computational environments, and audited molecular-docking materials used in the study. The Zenodo DOI for this release will be added after archival deposit.
 
 ## Repository contents
 
@@ -42,7 +42,7 @@ The repository supports reproducibility of computational analyses. Network assoc
 
 ## Citation
 
-Machine-readable citation metadata are provided in `CITATION.cff`. The associated article citation and an archival DOI will be added to the versioned public release.
+Machine-readable citation metadata are provided in `CITATION.cff`. The associated article citation and Zenodo DOI will be added when they become available.
 
 ## License
 

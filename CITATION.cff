@@ -2,7 +2,9 @@ cff-version: 1.2.0
 message: "If you use this repository, please cite the associated article and the archived repository release."
 title: "BWJYD-MDD-NBVK: reproducible data and code for an auditable computational evaluation of Bawei Jieyu Decoction in major depressive disorder"
 type: dataset
-version: 0.1.0
+version: 1.0.0
+date-released: 2026-09-12
+repository-code: "https://github.com/echoqf-lang/BWJYD-MDD-NBVK"
 authors:
   - family-names: "Yin"
     given-names: "Zhongyong"
