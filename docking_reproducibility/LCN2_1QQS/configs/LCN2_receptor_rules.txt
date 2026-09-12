@@ -1,0 +1,13 @@
+Source: 00_raw_inputs/1QQS_raw.pdb
+Protein chain: A
+Keep protein atoms: chain A
+Remove crystallographic waters: all HOH
+Remove glycan chain: NAG B:1, NAG B:2, and MAN B:3
+Remove other heteroatoms from receptor: all
+Reference ligand: DKA A:181
+Alternate-location rule: none; no alternate locations present
+Receptor docking state: DKA removed
+Initial box center: 48.041 36.165 32.490
+Redocking acceptance criterion: symmetry-corrected heavy-atom RMSD < 2.0 Angstrom
+Candidate docking gate: do not dock linoleic acid unless DKA redocking passes
+Candidate ligand: linoleic acid, PubChem CID 5280450

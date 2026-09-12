@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : -0.0565
+HEADER 1  - Drug Score                        : 0.0032
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8105
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4418
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 23.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 209.7323
+HEADER 10 - Pocket volume (convex hull)       : 8.4307
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6875
+ATOM   5027    O LEU A 653      12.205  28.764  -1.664  0.65  2.14           O 0
+ATOM   3328  CG2 VAL A 432      16.004  28.791   3.857  0.00  0.00           C 0
+ATOM   5016    O ARG A 652      13.565  32.584  -0.077  0.61  1.07           O 0
+ATOM   5025   CA LEU A 653      11.438  30.668  -0.512  0.00  0.00           C 0
+ATOM   5031  CD2 LEU A 653      10.462  30.394   2.318  0.00  0.00           C 0
+ATOM   5107  CE1 TYR A 662      11.588  27.470   4.349  0.00  0.00           C 0
+ATOM   5052   CD LYS A 656      12.919  25.116  -0.453  0.00  0.00           C 0
+ATOM   3319   CB PRO A 431      19.183  30.212  -0.688  0.00  0.00           C 0
+ATOM   3325    O VAL A 432      18.998  27.783   3.109  0.63  3.21           O 0
+ATOM   5038  CD2 HIS A 654      15.496  31.250  -2.247  0.00  0.00           C 0
+ATOM   5051   CG LYS A 656      11.815  26.036  -0.912  0.00  0.00           C 0
+ATOM   5054   NZ LYS A 656      14.068  23.170  -1.176  0.00  0.00           N 1
+ATOM   3322    N VAL A 432      18.239  30.289   2.467  0.00  0.00           N 0
+ATOM   5036   CB HIS A 654      14.202  29.476  -3.674  0.00  0.00           C 0
+ATOM   5035    O HIS A 654      12.621  27.818  -5.005  0.44  9.64           O 0
+TER
+END

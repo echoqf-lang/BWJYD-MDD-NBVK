@@ -1,0 +1,5 @@
+﻿set_name,observed_internal_edge_count,conditioned_draws,exceedances,p_empirical_right_plus1,unique_sampled_sets_unconditioned,analysis_status,FDR_BH
+ARG1_LCN2,0,9716,2868,0.29525573736750027,2455,post hoc exploratory stress test; not preregistered,0.33853418189283513
+ARG1_LTF,0,9741,3297,0.33853418189283513,2446,post hoc exploratory stress test; not preregistered,0.33853418189283513
+LCN2_LTF,1,314,16,0.05396825396825397,1708,post hoc exploratory stress test; not preregistered,0.10793650793650794
+ARG1_LCN2_LTF,1,809,33,0.04197530864197531,9368,post hoc exploratory stress test; not preregistered,0.10793650793650794

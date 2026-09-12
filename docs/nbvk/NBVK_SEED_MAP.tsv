@@ -1,0 +1,4 @@
+analysis_stage	run_label	numerical_seed	purpose
+NBVK_v1	run01	20260726	Primary 10000-draw random and topology-matched analyses
+NBVK_v1	run02	20260727	Alternate-seed sensitivity analysis
+NBVK_v2	run03	20260726	Community detection and reproducible combination matching

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.0948
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.9163
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5997
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 40.8571
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 159.4621
+HEADER 10 - Pocket volume (convex hull)       : 2.5259
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1000
+ATOM    868  NE2 GLN A 110     -29.423  45.190 -13.228  0.44  7.66           N 0
+ATOM   1175    O ARG A 151     -33.625  44.649  -9.918  0.52  1.07           O 0
+ATOM   1184   CA PHE A 152     -31.924  42.583  -9.314  0.00  0.00           C 0
+ATOM   1174    C ARG A 151     -33.421  44.397  -8.728  0.00  0.00           C 0
+ATOM   1176   CB ARG A 151     -33.507  46.578  -7.418  0.00  0.00           C 0
+ATOM   1181  NH1 ARG A 151     -30.646  48.889  -5.212  0.52  6.56           N 1
+ATOM   1065    O LEU A 136     -26.858  46.140  -6.424  0.56  3.21           O 0
+ATOM   1074   CB ASN A 137     -25.834  48.680  -7.925  0.00  0.00           C 0
+ATOM   1158    O ALA A 148     -30.790  43.978  -5.821  0.00  0.00           O 0
+ATOM   1183    N PHE A 152     -32.649  43.406  -8.330  0.00  0.00           N 0
+ATOM   1076  ND2 ASN A 137     -25.013  47.863 -10.113  0.32  4.37           N 0
+ATOM   1075   CG ASN A 137     -25.347  48.863  -9.328  0.00  0.00           C 0
+ATOM   1077  OD1 ASN A 137     -25.341  50.020  -9.805  0.00  0.00           O 0
+ATOM   1054    O PHE A 135     -25.679  44.119 -10.218  0.38  2.14           O 0
+ATOM   1064    C LEU A 136     -25.909  45.736  -7.141  0.00  0.00           C 0
+ATOM   1189  CD1 PHE A 152     -29.067  42.271 -10.352  0.00  0.00           C 0
+TER
+END

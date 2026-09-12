@@ -1,0 +1,21 @@
+LCN2 1QQS / Linoleic acid docking status: EXPLORATORY ONLY
+
+Candidate ligand:
+Linoleic acid, PubChem CID 5280450.
+
+Validation boundary:
+The 1QQS/DKA unbiased global redocking protocol failed the predefined
+symmetry-corrected heavy-atom RMSD criterion of less than 2.0 Angstrom.
+
+Permitted interpretation:
+The linoleic acid docking may be used only as an exploratory pose-generation
+and interaction-hypothesis analysis.
+
+Prohibited interpretation:
+Do not describe this result as a validated docking result, confirmed binding,
+direct target engagement, binding affinity measurement, or causal mechanism.
+
+Reporting requirement:
+The failed DKA redocking and the exploratory status of the linoleic acid
+docking must be disclosed in the Methods, Results, limitations, and figure
+caption where applicable.

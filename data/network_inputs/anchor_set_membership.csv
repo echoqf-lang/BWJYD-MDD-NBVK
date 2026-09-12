@@ -1,0 +1,4 @@
+﻿gene,in_drug_targets,in_mdd_targets,in_strict_intersection,drug_record_count,herb_count,compound_count,herbs,compounds
+ARG1,True,True,True,6,2,6,Chaihu|Houpu,Allantoin|Hexadecanamide|N-ethylpropionamide|N-methylformamide|N-nitrosomethylamine|Puerarin
+LCN2,True,True,True,4,3,2,Baishao|Chaihu|Sugeng,Linoleic acid|Phenol
+LTF,True,True,True,45,6,29,Baishao|Chaihu|Fuling|Houpu|Sugeng|Zhike,(113c)tetracosanoic acid|12-deuteriododecanoic acid|13-methylpentadecanoic acid|13-methyltetradecanoic acid|2-methylpentadecanoic acid|6-oxohexanoic acid|Acetylborneol|Arachidic acid|Behenate|Decanoate|Dodecanoate|Heptanoate|Heptanoic acid|Hexadecanoic acid|Icosanoate|Lauric acid|Lignoceric acid|Nonanoic acid|Octanoic acid|Pentadecanoate|Pentadecanoic acid|Pimelic acid|Schembl136610|Stearate|Stearic acid|Tetradecanoate|Tetradecanoic acid|Tridecanoic acid|Undecanoic acid

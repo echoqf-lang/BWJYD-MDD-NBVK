@@ -1,0 +1,6 @@
+dataset,tissue,N,Ncase,Ncontrol,covariates,analysis_role,model_id,source_file
+GSE98793,whole blood,192,128,64,age+sex+batch,primary_whole_blood,primary_cohort_model,data/geo/full_effect_tables/GSE98793_effects.tsv.gz
+GSE251778,whole blood,169,80,89,sex_stratified_inverse_variance_fixed_effect,primary_whole_blood,primary_cohort_model,data/geo/full_effect_tables/GSE251778_effects.tsv.gz
+GSE19738,whole blood,67,33,34,age+sex,primary_whole_blood,primary_cohort_model,data/geo/full_effect_tables/GSE19738_effects.tsv.gz
+GSE39653,PBMC,45,21,24,none,pbmc_validation,primary_cohort_model,data/geo/full_effect_tables/GSE39653_effects.tsv.gz
+GSE101521,DLPFC,56,28,28,age+sex+RIN+PMI,primary_brain_validation,overall_complete_case,data/geo/full_effect_tables/GSE101521_brain_effects.tsv.gz

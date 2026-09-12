@@ -1,0 +1,16 @@
+dataset,tissue,analysis_role,gene,measured_and_tested,effect,SE,p_value,FDR,N,Ncase,Ncontrol,covariates,direction,model_id,source_file
+GSE98793,whole blood,primary_whole_blood,ARG1,true,0.639077571162542,0.16467703759722,0.0001430444923665,0.0751431535894004,192,128,64,age+sex+batch,MDD_higher,primary_cohort_model,GSE98793_effects.tsv.gz
+GSE98793,whole blood,primary_whole_blood,LCN2,true,0.720483019873516,0.171481801004039,0.0000405771813500137,0.0422976538392543,192,128,64,age+sex+batch,MDD_higher,primary_cohort_model,GSE98793_effects.tsv.gz
+GSE98793,whole blood,primary_whole_blood,LTF,true,0.694570030463531,0.196596801994913,0.0005146989807009,0.111775461975561,192,128,64,age+sex+batch,MDD_higher,primary_cohort_model,GSE98793_effects.tsv.gz
+GSE251778,whole blood,primary_whole_blood,ARG1,true,0.420756705111755,0.172461530054595,0.0146989183754264,0.13809064663675,169,80,89,sex_stratified_inverse_variance_fixed_effect,MDD_higher,primary_cohort_model,GSE251778_effects.tsv.gz
+GSE251778,whole blood,primary_whole_blood,LCN2,true,0.445839596825917,0.176759550181077,0.0116592134731445,0.122023771315708,169,80,89,sex_stratified_inverse_variance_fixed_effect,MDD_higher,primary_cohort_model,GSE251778_effects.tsv.gz
+GSE251778,whole blood,primary_whole_blood,LTF,true,0.718020003077092,0.221205619223898,0.001170638148007,0.0309310090963001,169,80,89,sex_stratified_inverse_variance_fixed_effect,MDD_higher,primary_cohort_model,GSE251778_effects.tsv.gz
+GSE19738,whole blood,primary_whole_blood,ARG1,true,0.243309750205318,0.125300813001284,0.0564457162520413,0.999721852455252,67,33,34,age+sex,MDD_higher,primary_cohort_model,GSE19738_effects.tsv.gz
+GSE19738,whole blood,primary_whole_blood,LCN2,false,,,,,,,,,not_testable,primary_cohort_model,GSE19738_effects.tsv.gz
+GSE19738,whole blood,primary_whole_blood,LTF,true,0.387112830461217,0.281080249655835,0.173109336205317,0.999721852455252,67,33,34,age+sex,MDD_higher,primary_cohort_model,GSE19738_effects.tsv.gz
+GSE39653,PBMC,pbmc_validation,ARG1,false,,,,,,,,,not_testable,primary_cohort_model,GSE39653_effects.tsv.gz
+GSE39653,PBMC,pbmc_validation,LCN2,true,-0.193589856433959,0.166730309539759,0.251275622882626,0.794039085973009,45,21,24,none,MDD_lower,primary_cohort_model,GSE39653_effects.tsv.gz
+GSE39653,PBMC,pbmc_validation,LTF,true,-0.0525215433831276,0.0994280101816423,0.599739416944862,0.926179500117514,45,21,24,none,MDD_lower,primary_cohort_model,GSE39653_effects.tsv.gz
+GSE101521,DLPFC,primary_brain_validation,ARG1,true,-0.286856130686506,0.147877958278915,0.0577712274195947,0.999890167216269,56,28,28,age+sex+RIN+PMI,MDD_lower,overall_complete_case,GSE101521_brain_effects.tsv.gz
+GSE101521,DLPFC,primary_brain_validation,LCN2,true,-0.273912291921847,0.189057953764972,0.153320161115967,0.999890167216269,56,28,28,age+sex+RIN+PMI,MDD_lower,overall_complete_case,GSE101521_brain_effects.tsv.gz
+GSE101521,DLPFC,primary_brain_validation,LTF,true,-0.241224733283303,0.315696330887382,0.448218873981292,0.999890167216269,56,28,28,age+sex+RIN+PMI,MDD_lower,overall_complete_case,GSE101521_brain_effects.tsv.gz

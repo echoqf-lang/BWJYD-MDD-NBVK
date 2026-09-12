@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    44:
+HEADER 0  - Pocket Score                      : -0.1695
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of V. Vertices             :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.1386
+HEADER 4  - Mean alpha-sphere SA              : 0.5908
+HEADER 5  - Mean B-factor                     : 0.0000
+HEADER 6  - Hydrophobicity Score              : -21.1429
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Volume Score                      : 4.2857
+HEADER 9  - Real volume (approximation)       : 260.8755
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 4.0000
+HEADER 12 - Number of apolar alpha sphere     :     5
+HEADER 13 - Proportion of apolar alpha sphere : 0.2174
+ATOM      1    O STP    44      21.593  42.522  15.093    0.00     3.92
+ATOM      2    O STP    44      20.688  40.268  14.028    0.00     3.98
+ATOM      3    O STP    44      21.312  40.396  14.442    0.00     4.31
+ATOM      4    O STP    44      21.650  42.393  15.071    0.00     3.95
+ATOM      5    O STP    44      21.550  42.652  15.072    0.00     3.85
+ATOM      6    O STP    44      21.586  42.616  15.006    0.00     3.82
+ATOM      7    C STP    44      22.702  39.180  14.229    0.00     4.63
+ATOM      8    O STP    44      21.008  40.026  13.710    0.00     4.08
+ATOM      9    O STP    44      20.658  39.827  13.705    0.00     3.75
+ATOM     10    O STP    44      22.064  39.953  13.909    0.00     4.64
+ATOM     11    O STP    44      22.141  40.957  14.787    0.00     4.55
+ATOM     12    O STP    44      22.683  38.142  12.244    0.00     4.05
+ATOM     13    O STP    44      21.936  39.701  12.668    0.00     4.33
+ATOM     14    O STP    44      23.233  39.261  11.528    0.00     4.21
+ATOM     15    C STP    44      22.719  38.692  12.246    0.00     4.34
+ATOM     16    C STP    44      22.935  39.126  12.239    0.00     4.48
+ATOM     17    O STP    44      22.742  39.140  12.508    0.00     4.56
+ATOM     18    O STP    44      22.636  38.403  12.064    0.00     4.17
+ATOM     19    O STP    44      22.825  38.344  11.391    0.00     3.84
+ATOM     20    C STP    44      22.694  38.110  12.243    0.00     4.03
+ATOM     21    O STP    44      21.274  39.758  12.595    0.00     3.99
+ATOM     22    C STP    44      21.350  39.745  12.577    0.00     4.03
+ATOM     23    O STP    44      22.989  39.882  10.719    0.00     3.66
+TER
+END

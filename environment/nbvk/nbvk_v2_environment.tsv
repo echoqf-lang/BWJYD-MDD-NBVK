@@ -1,0 +1,8 @@
+component	version
+R	4.6.1
+igraph	2.3.3
+Python	3.13.9 (/opt/anaconda3/bin/python3)
+networkx	3.5
+numpy	2.3.5
+pandas	2.3.3
+seed	20260726

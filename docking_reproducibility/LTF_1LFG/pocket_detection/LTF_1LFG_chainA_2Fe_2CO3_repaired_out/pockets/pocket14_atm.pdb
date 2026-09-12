@@ -1,0 +1,59 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0043
+HEADER 1  - Drug Score                        : 0.4625
+HEADER 2  - Number of alpha spheres           :    55
+HEADER 3  - Mean alpha-sphere radius          : 3.9211
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5389
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 11.0769
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.2308
+HEADER 9  - Pocket volume (Monte Carlo)       : 532.8365
+HEADER 10 - Pocket volume (convex hull)       : 82.8547
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 24.1333
+HEADER 13 - Number of apolar alpha sphere     :    30
+HEADER 14 - Proportion of apolar alpha sphere : 0.5455
+ATOM    694   CA ARG A  89     -18.439  12.746   0.928  0.00  0.00           C 0
+ATOM    718  ND1 HIS A  91     -16.761  16.870  -0.207  0.55  1.09           N 0
+ATOM   5326    O LYS A 691     -11.446  14.962   0.729  0.62  9.64           O 0
+ATOM    719  CE1 HIS A  91     -16.420  16.287  -1.344  0.00  0.00           C 0
+ATOM   5325    C LYS A 691     -11.663  15.340   1.908  0.00  0.00           C 0
+ATOM    689    O PRO A  88     -17.070  10.355   0.303  0.00  0.00           O 0
+ATOM   5327   CB LYS A 691     -12.020  13.822   3.913  0.00  0.00           C 0
+ATOM   2375    O ILE A 305     -25.480   6.045   5.361  0.65  9.64           O 0
+ATOM   2381   CA GLY A 306     -24.915   8.010   7.335  0.00  0.00           C 0
+ATOM   2142  NE2 GLN A 275     -23.530   5.283   8.792  0.00  0.00           N 0
+ATOM   2377  CG1 ILE A 305     -23.497   7.441   2.585  0.00  0.00           C 0
+ATOM   2202   NZ LYS A 282     -27.593   2.429   6.828  0.00  0.00           N 1
+ATOM    665  OE2 GLU A  85     -24.529   1.490   1.856  0.41  7.50           O 1
+ATOM   2376   CB ILE A 305     -24.965   6.989   2.613  0.00  0.00           C 0
+ATOM    661   CB GLU A  85     -21.580   2.312   0.680  0.00  0.00           C 0
+ATOM    663   CD GLU A  85     -24.208   2.218   0.892  0.00  0.00           C 0
+ATOM    697   CB ARG A  89     -18.392  13.460  -0.417  0.00  0.00           C 0
+ATOM   5332  OXT LYS A 691     -12.331  16.331   2.282  0.70  3.21           O 1
+ATOM   2374    C ILE A 305     -25.483   7.246   5.084  0.00  0.00           C 0
+ATOM   2380    N GLY A 306     -25.280   8.223   5.933  0.00  0.00           N 0
+ATOM    631   CB VAL A  81     -21.849  10.669   4.945  0.00  0.00           C 0
+ATOM    632  CG1 VAL A  81     -21.013  10.038   3.848  0.00  0.00           C 0
+ATOM    633  CG2 VAL A  81     -21.021  10.730   6.206  0.00  0.00           C 0
+ATOM   2387    O PHE A 307     -21.130   8.974   9.665  0.62  9.64           O 0
+ATOM   2400   OG SER A 308     -17.386  11.618   9.558  0.62  7.50           O 0
+ATOM   2399   CB SER A 308     -18.714  11.862   9.124  0.00  0.00           C 0
+ATOM    709  CG2 THR A  90     -18.683  13.724   5.767  0.00  0.00           C 0
+ATOM   5329   CD LYS A 691     -12.021  11.968   5.555  0.00  0.00           C 0
+ATOM   5331   NZ LYS A 691     -11.743   9.780   6.633  0.00  0.00           N 1
+ATOM    691   CG PRO A  88     -17.802   7.393   1.797  0.00  0.00           C 0
+ATOM    690   CB PRO A  88     -19.022   8.278   1.869  0.00  0.00           C 0
+ATOM    658   CA GLU A  85     -21.141   3.710   0.259  0.00  0.00           C 0
+ATOM    660    O GLU A  85     -18.815   3.284   0.687  0.44  6.43           O 0
+ATOM    710  OG1 THR A  90     -17.346  15.593   5.172  0.70  4.29           O 0
+ATOM    688    C PRO A  88     -18.290  10.345   0.573  0.00  0.00           C 0
+ATOM    693    N ARG A  89     -19.046  11.397   0.855  0.77  1.09           N 0
+ATOM    704    N THR A  90     -18.544  14.421   2.697  0.61  4.37           N 0
+TER
+END

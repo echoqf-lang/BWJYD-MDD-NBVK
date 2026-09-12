@@ -1,0 +1,118 @@
+ARG1 3KV2 / NNH redocking validation and puerarin docking status
+
+Original planned structure:
+PDB 4HWW, human ARG1 with co-crystal ligand X7A and two catalytic Mn2+ ions.
+
+4HWW/X7A limitation:
+X7A contains boron.
+Meeko generated ligand atom type B, but stock AutoDock Vina 1.2.7 rejected
+atom type B as an invalid AutoDock atom type.
+AutoGrid4 was not available for a custom AutoDock4 boron parameter workflow.
+Therefore, 4HWW/X7A redocking was not forced through an unsupported atom-type
+substitution and was not used as the formal validation system.
+
+Formal ARG1 validation structure:
+PDB 3KV2, human arginase-1 complexed with
+N(omega)-hydroxy-nor-L-arginine (NNH; nor-NOHA).
+X-ray resolution = 1.55 Angstrom.
+Protein chain = A.
+Catalytic metals retained:
+MN A:514 and MN A:515.
+Waters, chain B, the co-crystal ligand, and other heteroatoms were removed
+from the docking receptor.
+
+Reference ligand:
+NNH A:901.
+The crystallographic ligand coordinates were preserved.
+Explicit hydrogens were added without moving heavy atoms.
+Ligand formal charge = 0.
+
+Redocking protocol:
+AutoDock Vina 1.2.7.
+Scoring function = Vina.
+Box center = 24.660 -12.928 -4.513.
+Box size = 22 22 22 Angstrom.
+Exhaustiveness = 32.
+Number of modes = 20.
+Random seeds = 20260727, 20260728, and 20260729.
+Acceptance criterion:
+symmetry-corrected heavy-atom RMSD < 2.0 Angstrom.
+
+Best-ranked redocking results:
+
+Seed       Best score (kcal/mol)   Symmetry-corrected RMSD (Angstrom)   Pass
+20260727          -7.936                         1.2949                  Yes
+20260728          -7.935                         1.2887                  Yes
+20260729          -7.832                         1.2387                  Yes
+
+Validation decision:
+PASS.
+The best-ranked pose reproduced the crystallographic NNH pose below the
+predefined 2.0 Angstrom threshold in all three independent runs.
+
+Scope of validation:
+This validates the specified 3KV2/NNH ARG1 docking protocol.
+It does not constitute a successful 4HWW/X7A redocking validation.
+The substitution of 3KV2/NNH for 4HWW/X7A must be disclosed.
+
+Candidate ligand:
+Puerarin, PubChem CID 5281807.
+Molecular formula = C21H20O9.
+Molecular weight = 416.382.
+InChIKey = HKEAFJYKMMKDOR-VPRICQMDSA-N.
+Formal charge = 0.
+PDBQT torsional degrees of freedom = 9.
+
+Puerarin docking:
+Receptor = validated 3KV2 chain A receptor with both catalytic Mn2+ ions.
+Scoring function = Vina.
+Random seeds = 20260727, 20260728, and 20260729.
+
+Best-ranked scores:
+
+Seed       Best score (kcal/mol)
+20260727          -7.292
+20260728          -7.283
+20260729          -7.286
+
+Cross-seed best-pose convergence:
+
+20260727 vs 20260728 RMSD = 0.0306 Angstrom.
+20260727 vs 20260729 RMSD = 0.0291 Angstrom.
+20260728 vs 20260729 RMSD = 0.0098 Angstrom.
+
+Interpretation:
+The best-ranked puerarin pose was highly reproducible across the three seeds.
+This supports pose stability within the validated docking setup, but does not
+constitute experimental evidence of binding affinity or target engagement.
+
+Representative pose:
+Puerarin seed 20260727, mode 1.
+
+Geometry quality control:
+Minimum ligand-protein heavy-atom distance = 2.676 Angstrom.
+Nearest protein atom = OD1 of ASP A:128.
+Protein-ligand heavy-atom contacts below 1.5 Angstrom = 0.
+Protein-ligand heavy-atom contacts below 2.0 Angstrom = 0.
+Minimum puerarin distance to MN A:514 = 4.324 Angstrom.
+Minimum puerarin distance to MN A:515 = 4.577 Angstrom.
+No severe steric clash or direct Mn coordination was identified.
+
+Interaction analysis:
+PLIP version 2.4.0.
+The representative complex, PLIP report, protonated structure, PyMOL session,
+and QC image are stored in the 09_PLIP_PyMOL directory.
+Interaction claims must be based on the PLIP geometry and manual inspection,
+not on docking score alone.
+
+Permitted reporting:
+The 3KV2/NNH protocol passed three-seed co-crystal redocking validation.
+Puerarin produced a highly reproducible candidate pose within this protocol.
+The pose may be used for interaction-hypothesis generation.
+
+Prohibited reporting:
+Do not state that 4HWW/X7A redocking passed.
+Do not describe the docking score as measured binding affinity.
+Do not claim experimentally confirmed ARG1-puerarin binding.
+Do not claim direct target engagement or causal therapeutic mechanism.
+Do not base the conclusion on docking score alone.

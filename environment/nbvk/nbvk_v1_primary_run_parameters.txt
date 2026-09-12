@@ -1,0 +1,4 @@
+seed=20260726
+permutations_per_set=10000
+workers=8
+deviations=see preregistration_deviations.md

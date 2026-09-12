@@ -1,0 +1,17 @@
+package	version
+R	4.6.1
+BiocManager	1.30.27
+Biobase	2.72.0
+digest	0.6.39
+dplyr	1.2.1
+edgeR	4.10.1
+GEOquery	2.80.0
+HGNChelper	0.8.15
+jsonlite	2.0.0
+limma	3.68.4
+metafor	5.0.1
+openxlsx	4.2.8.1
+readxl	1.5.0
+renv	1.2.3
+stringr	1.6.0
+yaml	2.3.12

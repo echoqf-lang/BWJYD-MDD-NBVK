@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 0.0238
+HEADER 1  - Drug Score                        : 0.0031
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.7871
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5422
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -12.1429
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 280.1013
+HEADER 10 - Pocket volume (convex hull)       : 14.9192
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 6.2222
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3750
+ATOM     17   CA ARG A   3     -29.927   9.417  30.783  0.00  0.00           C 0
+ATOM     22   CD ARG A   3     -27.691  11.078  28.851  0.00  0.00           C 0
+ATOM   2040   CE LYS A 263     -29.030  14.918  27.903  0.00  0.00           C 0
+ATOM      8    O ARG A   2     -30.938  10.216  33.277  0.37  6.43           O 0
+ATOM     42   CB SER A   5     -34.546  11.385  25.966  0.00  0.00           C 0
+ATOM     57   CD GLN A   7     -34.720  16.789  26.485  0.00  0.00           C 0
+ATOM     56   CG GLN A   7     -34.749  15.776  25.348  0.00  0.00           C 0
+ATOM     59  OE1 GLN A   7     -35.761  17.315  26.877  0.00  0.00           O 0
+ATOM     32   CG ARG A   4     -35.600  10.676  30.079  0.00  0.00           C 0
+ATOM     38    N SER A   5     -33.066  10.783  27.858  0.67  1.09           N 0
+ATOM     41    O SER A   5     -31.649  12.975  26.475  0.00  0.00           O 0
+ATOM     58  NE2 GLN A   7     -33.575  17.118  27.068  0.00  0.00           N 0
+ATOM    287   OG SER A  35     -37.209  13.561  24.126  0.89  3.21           O 0
+ATOM     33   CD ARG A   4     -36.800  10.583  30.946  0.00  0.00           C 0
+ATOM   2041   NZ LYS A 263     -30.507  15.003  27.732  0.55  6.56           N 1
+ATOM     27    N ARG A   4     -32.217   9.460  30.494  0.00  0.00           N 0
+ATOM     31   CB ARG A   4     -34.444  10.051  30.824  0.00  0.00           C 0
+ATOM    286   CB SER A  35     -37.899  12.296  24.084  0.00  0.00           C 0
+ATOM     34   NE ARG A   4     -37.654   9.469  30.594  0.54  8.75           N 0
+ATOM     43   OG SER A   5     -35.254  10.238  25.522  0.51  4.29           O 0
+TER
+END

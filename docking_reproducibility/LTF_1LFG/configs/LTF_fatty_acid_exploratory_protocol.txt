@@ -1,0 +1,51 @@
+Study status: EXPLORATORY ONLY
+
+Receptor:
+PDB 1LFG, diferric human lactoferrin, chain A.
+Keep FE A:701, FE A:702, CO3 A:703, and CO3 A:704.
+Remove crystallographic waters and glycans.
+Repair only the documented missing side-chain atoms of ARG86 and GLU637.
+Do not move existing experimental protein coordinates.
+
+Pocket selection:
+Pocket detection tool: fpocket 4.2.2.
+Pocket selection was frozen before ligand docking.
+N-lobe region: fpocket Pocket 2, highest-ranked N-lobe pocket.
+C-lobe region: fpocket Pocket 1, highest-ranked C-lobe pocket.
+Do not select alternative pockets after inspecting docking scores.
+
+N-lobe box:
+center = -38.505 18.934 2.738
+size = 26 24 30 Angstrom
+
+C-lobe box:
+center = 9.338 32.764 24.102
+size = 24 22 28 Angstrom
+
+Ligands:
+Primary exploratory ligand: linoleic acid, PubChem CID 5280450.
+Fatty-acid class control: palmitic acid, PubChem CID 985.
+Fatty-acid class control: stearic acid, PubChem CID 5281.
+Prepare all three as carboxylate anions with formal charge -1.
+Use PubChem 3D conformers and preserve specified double-bond stereochemistry.
+
+Docking:
+AutoDock Vina 1.2.7.
+Use the same receptor and parameters for all three ligands.
+Use exhaustiveness 64, num_modes 20, energy_range 6.
+Use seeds 20260727, 20260728, and 20260729.
+Run both frozen lobe boxes for every ligand.
+
+Required quality control:
+Check cross-seed top-pose convergence.
+Check protein-ligand steric clashes.
+Check minimum ligand distance to both Fe ions.
+Flag direct or near-direct Fe coordination as a possible metal-driven artifact.
+Use PLIP and manual geometry checks for representative poses.
+
+Interpretation boundary:
+Do not claim a validated LTF fatty-acid binding pocket.
+Do not claim specific binding, direct target engagement, or causal mechanism.
+Do not compare LTF docking scores with ARG1 or LCN2 scores.
+Within LTF, small score differences among fatty acids do not establish selectivity.
+Report pocket detection, both lobes, all controls, convergence, and negative results.

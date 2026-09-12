@@ -1,0 +1,5 @@
+permutations_per_set=10000
+workers=8
+primary_seed=20260726
+alternate_seed=20260727
+analytical_deviations=see preregistration_deviations.md

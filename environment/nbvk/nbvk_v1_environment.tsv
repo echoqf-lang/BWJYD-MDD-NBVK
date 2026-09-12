@@ -1,0 +1,6 @@
+component	version_or_value
+R	recorded_at_runtime
+igraph	2.3.3
+parallel	base_R
+global_seed	20260726
+primary_permutations_per_set	10000

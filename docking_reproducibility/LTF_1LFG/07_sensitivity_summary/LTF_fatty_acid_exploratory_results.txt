@@ -1,0 +1,176 @@
+LTF 1LFG / fatty-acid docking status: EXPLORATORY ONLY
+
+Receptor:
+PDB 1LFG, diferric human lactoferrin, chain A, X-ray resolution 2.20 Angstrom.
+Retained FE A:701, FE A:702, CO3 A:703, and CO3 A:704.
+Removed crystallographic waters and glycans.
+Repaired only the documented missing side-chain atoms:
+ARG A:86 (6 heavy atoms) and GLU A:637 (4 heavy atoms).
+All 5322 original experimental protein atom coordinates were preserved:
+coordinate RMSD = 0.000000 Angstrom; maximum deviation = 0.000000 Angstrom.
+
+Validation boundary:
+No fatty-acid co-crystal ligand is present in 1LFG.
+Therefore, no fatty-acid redocking validation was possible.
+The following results are exploratory pose-generation and sensitivity analyses,
+not validated evidence of a specific fatty-acid binding pocket.
+
+Pocket detection:
+Tool: fpocket 4.2.2.
+Pockets and docking boxes were frozen before ligand docking.
+
+N-lobe:
+fpocket Pocket 2, the highest-ranked N-lobe pocket.
+Box center = -38.505 18.934 2.738
+Box size = 26 24 30 Angstrom
+
+C-lobe:
+fpocket Pocket 1, the highest-ranked C-lobe pocket.
+Box center = 9.338 32.764 24.102
+Box size = 24 22 28 Angstrom
+
+Ligands:
+Primary exploratory ligand:
+Linoleic acid, PubChem CID 5280450.
+
+Fatty-acid class controls:
+Palmitic acid, PubChem CID 985.
+Stearic acid, PubChem CID 5281.
+
+All ligands were prepared as carboxylate anions with formal charge -1.
+Linoleate and palmitate used PubChem 3D conformers.
+PubChem did not provide a 3D conformer for CID 5281.
+Stearate was generated reproducibly using RDKit ETKDGv3,
+random seed 20260727, followed by MMFF optimization (status = 0).
+
+Docking:
+AutoDock Vina 1.2.7.
+Exhaustiveness = 64.
+Number of modes = 20.
+Energy range = 6 kcal/mol.
+Random seeds = 20260727, 20260728, and 20260729.
+All three ligands were docked into both frozen lobe boxes.
+Total docking runs = 18.
+Each run produced 20 poses.
+
+Best-ranked Vina scores (kcal/mol):
+
+Ligand       Lobe     Seed 20260727  Seed 20260728  Seed 20260729
+Linoleate    N-lobe       -6.360         -6.630         -6.473
+Linoleate    C-lobe       -6.152         -6.873         -6.946
+Palmitate    N-lobe       -6.055         -6.057         -5.892
+Palmitate    C-lobe       -5.955         -5.893         -6.145
+Stearate     N-lobe       -6.445         -6.029         -5.981
+Stearate     C-lobe       -6.341         -6.001         -6.254
+
+Cross-seed top-pose convergence:
+
+Linoleate N-lobe:
+20260727 vs 20260728 RMSD = 0.6728 Angstrom.
+20260727 vs 20260729 RMSD = 5.4100 Angstrom.
+20260728 vs 20260729 RMSD = 5.3828 Angstrom.
+Interpretation: partial convergence; two recurrent poses and one alternative pose.
+
+Linoleate C-lobe:
+20260727 vs 20260728 RMSD = 6.6107 Angstrom.
+20260727 vs 20260729 RMSD = 6.6456 Angstrom.
+20260728 vs 20260729 RMSD = 0.7507 Angstrom.
+Interpretation: partial convergence; two recurrent poses and one alternative pose.
+
+Palmitate N-lobe:
+Pairwise RMSD range = 3.1988 to 4.6679 Angstrom.
+Interpretation: no cross-seed convergence.
+
+Palmitate C-lobe:
+20260727 vs 20260728 RMSD = 1.5532 Angstrom.
+Other pairwise RMSDs = 3.5325 and 3.7517 Angstrom.
+Interpretation: partial convergence.
+
+Stearate N-lobe:
+Pairwise RMSD range = 2.9279 to 5.5540 Angstrom.
+Interpretation: no cross-seed convergence.
+
+Stearate C-lobe:
+Pairwise RMSD range = 2.0794 to 3.1874 Angstrom.
+Interpretation: no clear cross-seed convergence.
+
+Geometry quality control:
+All 18 best-ranked poses were checked.
+No ligand-protein heavy-atom contacts below 1.5 Angstrom were found.
+No ligand-protein heavy-atom contacts below 2.0 Angstrom were found.
+
+N-lobe poses:
+Minimum distance to FE701 = 5.261 to 6.805 Angstrom.
+Minimum distance to FE702 = 45.496 to 45.989 Angstrom.
+
+C-lobe poses:
+Minimum distance to FE701 = 36.053 to 37.680 Angstrom.
+Minimum distance to FE702 = 6.013 to 6.431 Angstrom.
+
+No pose met the predefined direct metal-coordination threshold of <=3.0 Angstrom.
+No pose met the near-metal threshold of <=4.0 Angstrom.
+No obvious Fe-driven docking artifact was identified.
+
+Representative linoleate poses:
+N-lobe: seed 20260728, mode 1.
+Reason: member of the recurrent 20260727/20260728 cluster and better score
+within that recurrent cluster.
+
+C-lobe: seed 20260729, mode 1.
+Reason: member of the recurrent 20260728/20260729 cluster and better score
+within that recurrent cluster.
+
+PLIP analysis:
+PLIP version 2.4.0.
+
+N-lobe representative linoleate pose:
+Hydrophobic contacts:
+VAL11, ASP60, PHE63, PHE183, PHE190, and ASP297.
+
+Most credible polar contact:
+HIS253 to linoleate carboxylate,
+donor-acceptor distance = 3.27 Angstrom,
+donor angle = 165.88 degrees.
+
+THR58 and LYS301 contacts had weak donor angles
+(111.42 and 102.30 degrees) and should not be emphasized.
+PLIP protonation produced a THR58 contact in which the ligand was treated
+as a donor; this is not fully consistent with the prepared carboxylate state.
+
+C-lobe representative linoleate pose:
+Hydrophobic contacts:
+VAL350, MET392, TYR398, TYR526, and ASN640.
+
+Most credible polar contacts:
+THR529 backbone NH to linoleate carboxylate,
+donor-acceptor distance = 3.09 Angstrom,
+donor angle = 163.90 degrees.
+
+ASN640 side chain to linoleate carboxylate,
+donor-acceptor distance = 2.92 Angstrom,
+donor angle = 154.66 degrees.
+
+TYR528 had a weak donor angle of 111.44 degrees.
+The THR529 side-chain contact was long at 3.98 Angstrom.
+The GLY530 contact at 3.55 Angstrom should be considered auxiliary.
+
+Overall interpretation:
+The three fatty acids showed overlapping Vina score ranges.
+Small score differences do not establish fatty-acid selectivity.
+No ligand achieved complete three-seed pose convergence in either lobe.
+Linoleate showed partial convergence in both lobes, but this does not validate
+a specific or biologically preferred LTF fatty-acid binding pocket.
+
+Permitted reporting:
+Exploratory candidate poses and interaction hypotheses.
+Sensitivity comparison with saturated fatty-acid class controls.
+Disclosure of incomplete pose convergence and absence of redocking validation.
+
+Prohibited reporting:
+Do not claim validated binding.
+Do not claim direct target engagement.
+Do not claim a specific LTF fatty-acid pocket.
+Do not claim linoleate selectivity from docking scores.
+Do not interpret docking scores as measured binding affinities.
+Do not compare LTF docking scores quantitatively with ARG1 or LCN2 scores.
+Do not infer a causal mechanism from these docking results.

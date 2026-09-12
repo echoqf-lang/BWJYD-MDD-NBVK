@@ -1,0 +1,33 @@
+{
+  "seed": 20260726,
+  "anchors": [
+    "ARG1",
+    "LCN2",
+    "LTF"
+  ],
+  "raw_unique_triplets": 435148,
+  "strict_legal_triplets": 599,
+  "relax1_legal_triplets": 999,
+  "relax2_legal_triplets": 6546,
+  "acceptance_rate": 0.0013765431531341061,
+  "observed_signature": "('100', (1, 2, 2), '2+1', (1, 1, 1), (1, 1, 1), 0)",
+  "common_neighbor_bin_edges": [
+    0.0,
+    1.0,
+    132.0
+  ],
+  "jaccard_bin_edges": [
+    0.0,
+    0.012195121951219513,
+    1.0
+  ],
+  "triplet_union_bin_edges": [
+    31.0,
+    60.0,
+    68.0,
+    74.0,
+    82.0,
+    125.0
+  ],
+  "confirmatory_support": false
+}

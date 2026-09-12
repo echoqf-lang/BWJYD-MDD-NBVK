@@ -1,0 +1,6 @@
+target,candidate_ligand,PDB,validation_ligand,validation_status,validation_RMSD_A,candidate_score_range_kcal_mol,cross_seed_pose_RMSD_A,pocket_or_box,interpretation
+ARG1,Puerarin,3KV2,NNH (nor-NOHA),PASS in 3/3 seeds,1.2387–1.2949,−7.292 to −7.283,0.0098–0.0306,Co-crystal-centred; 22×22×22 Å,Strongest computational support; hypothesis-generating only
+LCN2,Linoleate,1QQS,DKA (decanoic acid),FAILED unbiased global redocking,4.8769–6.3873,−5.788 to −5.692,1.0165–1.4381,DKA-centred global/focused boxes,Exploratory pose generation only
+LTF,Linoleate,1LFG,None,No fatty-acid co-crystal available,NA,N-lobe: −6.630 to −6.360; C-lobe: −6.946 to −6.152,Recurrent pair: 0.6728 (N); 0.7507 (C),Frozen fpocket N- and C-lobe boxes,Exploratory; no selectivity over palmitate/stearate
+LTF,Palmitate,1LFG,None,Class control,NA,N-lobe: −6.057 to −5.892; C-lobe: −6.145 to −5.893,No/partial convergence,Same frozen boxes,Control; overlaps linoleate score ranges
+LTF,Stearate,1LFG,None,Class control,NA,N-lobe: −6.445 to −5.981; C-lobe: −6.341 to −6.001,No clear convergence,Same frozen boxes,Control; overlaps linoleate score ranges

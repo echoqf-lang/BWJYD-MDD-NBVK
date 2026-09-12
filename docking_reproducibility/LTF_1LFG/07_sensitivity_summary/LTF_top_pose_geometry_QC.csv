@@ -1,0 +1,19 @@
+ligand,lobe,seed,minimum_protein_distance_A,nearest_pair,protein_contacts_below_1.5A,protein_contacts_below_2.0A,minimum_full_receptor_distance_A,minimum_distance_to_FE701_A,minimum_distance_to_FE702_A,possible_metal_artifact,source_file
+linoleate,Nlobe,20260727,3.016,O19--OG1 A:THR:58,0,0,3.016,5.438,45.641,NO,05_Nlobe_docking/linoleate_Nlobe_run01_poses.sdf
+linoleate,Nlobe,20260728,3.034,O19--OG1 A:THR:58,0,0,3.034,5.341,45.668,NO,05_Nlobe_docking/linoleate_Nlobe_run02_poses.sdf
+linoleate,Nlobe,20260729,2.733,O20--OG A:SER:185,0,0,2.733,6.805,45.608,NO,05_Nlobe_docking/linoleate_Nlobe_run03_poses.sdf
+palmitate,Nlobe,20260727,2.993,O17--OG A:SER:191,0,0,2.993,6.016,45.636,NO,05_Nlobe_docking/palmitate_Nlobe_run01_poses.sdf
+palmitate,Nlobe,20260728,2.888,O18--OG A:SER:191,0,0,2.888,5.723,45.989,NO,05_Nlobe_docking/palmitate_Nlobe_run02_poses.sdf
+palmitate,Nlobe,20260729,2.908,O18--NH1 A:ARG:121,0,0,2.908,6.023,45.496,NO,05_Nlobe_docking/palmitate_Nlobe_run03_poses.sdf
+stearate,Nlobe,20260727,2.878,O19--OG A:SER:191,0,0,2.878,5.261,45.756,NO,05_Nlobe_docking/stearate_Nlobe_run01_poses.sdf
+stearate,Nlobe,20260728,2.995,O20--OG A:SER:185,0,0,2.995,5.717,45.625,NO,05_Nlobe_docking/stearate_Nlobe_run02_poses.sdf
+stearate,Nlobe,20260729,2.911,O20--OG A:SER:185,0,0,2.911,6.379,45.956,NO,05_Nlobe_docking/stearate_Nlobe_run03_poses.sdf
+linoleate,Clobe,20260727,2.864,O20--O A:CYS:348,0,0,2.864,36.053,6.230,NO,06_Clobe_docking/linoleate_Clobe_run01_poses.sdf
+linoleate,Clobe,20260728,2.923,O19--N A:THR:529,0,0,2.923,37.028,6.218,NO,06_Clobe_docking/linoleate_Clobe_run02_poses.sdf
+linoleate,Clobe,20260729,2.917,O20--ND2 A:ASN:640,0,0,2.917,37.178,6.257,NO,06_Clobe_docking/linoleate_Clobe_run03_poses.sdf
+palmitate,Clobe,20260727,2.969,O17--NH2 A:ARG:465,0,0,2.969,37.680,6.431,NO,06_Clobe_docking/palmitate_Clobe_run01_poses.sdf
+palmitate,Clobe,20260728,3.198,O18--O A:TYR:526,0,0,3.198,37.437,6.013,NO,06_Clobe_docking/palmitate_Clobe_run02_poses.sdf
+palmitate,Clobe,20260729,3.047,O18--ND2 A:ASN:640,0,0,3.047,37.387,6.293,NO,06_Clobe_docking/palmitate_Clobe_run03_poses.sdf
+stearate,Clobe,20260727,2.811,O19--ND2 A:ASN:640,0,0,2.811,37.582,6.417,NO,06_Clobe_docking/stearate_Clobe_run01_poses.sdf
+stearate,Clobe,20260728,2.936,O20--NH2 A:ARG:465,0,0,2.936,36.819,6.297,NO,06_Clobe_docking/stearate_Clobe_run02_poses.sdf
+stearate,Clobe,20260729,3.119,O20--NH2 A:ARG:465,0,0,3.119,37.171,6.373,NO,06_Clobe_docking/stearate_Clobe_run03_poses.sdf

@@ -1,0 +1,31 @@
+LCN2 1QQS / DKA redocking validation status: FAILED
+
+Acceptance criterion:
+Symmetry-corrected heavy-atom RMSD < 2.0 Angstrom.
+
+Results:
+Anionic DKA, box 26 x 22 x 22, exhaustiveness 32, seed 20260727:
+best-ranked mode RMSD = 6.2693 Angstrom.
+
+Neutral DKA, box 26 x 22 x 22, exhaustiveness 32, seed 20260727:
+best-ranked mode RMSD = 4.8769 Angstrom.
+
+Neutral DKA, focused box 22 x 16 x 16, exhaustiveness 64, seed 20260727:
+best-ranked mode RMSD = 6.3873 Angstrom.
+
+Crystal-pose local optimization:
+RMSD = 0.6245 Angstrom.
+
+Interpretation:
+The crystallographic pose is locally stable, but unbiased global docking did not reproduce or rank the crystallographic DKA pose. Protonation state, biological dimer partner, missing side chains, focused-box size, and nearby crystallographic waters were examined and did not resolve the failure.
+
+Decision:
+Do not describe subsequent LCN2-linoleic acid docking as validated.
+Candidate docking remains blocked pending protocol or receptor reconsideration.
+Final scoring-function sensitivity check:
+Neutral DKA, Vinardo scoring, focused box 22 x 16 x 16,
+exhaustiveness 64, seed 20260727:
+best-ranked mode RMSD = 5.2263 Angstrom.
+
+Final protocol decision:
+Vinardo also failed the predefined RMSD criterion. Parameter optimization was stopped to avoid post hoc tuning. The 1QQS/DKA global redocking protocol is not validated, although crystal-pose local optimization remained stable.

@@ -1,0 +1,26 @@
+.DS_Store
+._*
+Thumbs.db
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+*.log
+*.tmp
+*.bak
+~$*
+
+# Never publish local credentials or personal configuration.
+*.pem
+*.key
+auth.json
+credentials*
+
+# Keep large raw downloads outside Git; document their accessions instead.
+data/raw/

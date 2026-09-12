@@ -1,0 +1,382 @@
+Three-target molecular docking summary
+Study: Bawei Jieyu Decoction / major depressive disorder
+Targets: ARG1, LCN2, and LTF
+Date-versioned workflows: 2026-07-27
+
+GENERAL INTERPRETATION RULES
+
+Docking scores are not experimental binding affinities.
+Docking alone does not demonstrate direct target engagement.
+Interaction interpretation requires pose reproducibility, geometry quality
+control, co-crystal redocking where applicable, and PLIP/manual inspection.
+Scores from different receptors must not be compared quantitatively.
+Negative or failed validation results must be disclosed.
+
+======================================================================
+1. ARG1 / PUERARIN
+======================================================================
+
+Candidate pair:
+ARG1 with puerarin, PubChem CID 5281807.
+
+Original planned validation:
+PDB 4HWW with co-crystal ligand X7A and two catalytic Mn2+ ions.
+
+4HWW/X7A technical limitation:
+X7A contains boron.
+Meeko generated ligand atom type B, which stock AutoDock Vina 1.2.7 rejected.
+No unsupported atom-type substitution was used.
+Therefore, 4HWW/X7A redocking was not completed or claimed as passed.
+
+Formal alternative ARG1 validation:
+PDB 3KV2, human ARG1 complexed with NNH (nor-NOHA).
+Resolution = 1.55 Angstrom.
+Protein chain A was used.
+Both catalytic manganese ions were retained:
+MN A:514 and MN A:515.
+
+NNH redocking protocol:
+Vina 1.2.7.
+Box center = 24.660 -12.928 -4.513.
+Box size = 22 22 22 Angstrom.
+Exhaustiveness = 32.
+Number of modes = 20.
+Seeds = 20260727, 20260728, and 20260729.
+Acceptance criterion:
+symmetry-corrected heavy-atom RMSD < 2.0 Angstrom.
+
+NNH best-ranked redocking results:
+
+Seed       Score (kcal/mol)   Symmetry-corrected RMSD (Angstrom)
+20260727       -7.936                         1.2949
+20260728       -7.935                         1.2887
+20260729       -7.832                         1.2387
+
+ARG1 validation status:
+PASS for the 3KV2/NNH protocol in all three runs.
+This does not mean that 4HWW/X7A redocking passed.
+
+Puerarin docking results:
+
+Seed       Best score (kcal/mol)
+20260727          -7.292
+20260728          -7.283
+20260729          -7.286
+
+Puerarin cross-seed best-pose RMSD:
+
+20260727 vs 20260728 = 0.0306 Angstrom.
+20260727 vs 20260729 = 0.0291 Angstrom.
+20260728 vs 20260729 = 0.0098 Angstrom.
+
+Representative pose:
+Seed 20260727, mode 1.
+
+Puerarin geometry quality control:
+Minimum protein-ligand heavy-atom distance = 2.676 Angstrom.
+Contacts below 1.5 Angstrom = 0.
+Contacts below 2.0 Angstrom = 0.
+Minimum distance to MN A:514 = 4.324 Angstrom.
+Minimum distance to MN A:515 = 4.577 Angstrom.
+No severe steric clash or direct manganese coordination was identified.
+
+ARG1 interpretation:
+Puerarin produced a highly reproducible candidate pose in an ARG1 protocol
+that passed alternative co-crystal redocking using 3KV2/NNH.
+This supports interaction-hypothesis generation only.
+It does not establish experimental ARG1-puerarin binding or therapeutic
+causality.
+
+======================================================================
+2. LCN2 / LINOLEIC ACID
+======================================================================
+
+Candidate pair:
+LCN2 with linoleic acid, PubChem CID 5280450.
+
+Structure:
+PDB 1QQS, neutrophil gelatinase-associated lipocalin.
+Resolution = 2.40 Angstrom.
+Protein chain A was used.
+Co-crystal ligand = decanoic acid, DKA A:181.
+
+Receptor repair:
+Five residues had documented missing side-chain atoms:
+THR4, ARG72, LYS73, LYS74, and LYS98.
+Twenty missing heavy atoms were added using PDBFixer.
+All 1392 original experimental protein atom coordinates were preserved:
+coordinate RMSD = 0.000000 Angstrom;
+maximum deviation = 0.000000 Angstrom.
+
+DKA redocking acceptance criterion:
+symmetry-corrected heavy-atom RMSD < 2.0 Angstrom.
+
+Global redocking results:
+
+Anionic DKA, box 26 x 22 x 22 Angstrom,
+exhaustiveness 32, seed 20260727:
+best-ranked RMSD = 6.2693 Angstrom.
+
+Neutral DKA, box 26 x 22 x 22 Angstrom,
+exhaustiveness 32, seed 20260727:
+best-ranked RMSD = 4.8769 Angstrom.
+
+Neutral DKA, focused box 22 x 16 x 16 Angstrom,
+exhaustiveness 64, seed 20260727:
+best-ranked RMSD = 6.3873 Angstrom.
+
+Neutral DKA, Vinardo, focused box,
+exhaustiveness 64, seed 20260727:
+best-ranked RMSD = 5.2263 Angstrom.
+
+Crystal-pose local optimization:
+RMSD = 0.6245 Angstrom.
+
+LCN2 validation status:
+FAILED for unbiased global redocking.
+The crystal pose was locally stable, but global docking did not reproduce or
+rank the crystallographic DKA pose.
+Parameter optimization was stopped to avoid post hoc tuning.
+
+Linoleate status:
+EXPLORATORY ONLY.
+The failed DKA global redocking must be disclosed.
+
+Linoleate docking results:
+
+Seed       Best score (kcal/mol)
+20260727          -5.788
+20260728          -5.692
+20260729          -5.702
+
+Linoleate cross-seed top-pose RMSD:
+
+20260727 vs 20260728 = 1.4381 Angstrom.
+20260727 vs 20260729 = 1.0165 Angstrom.
+20260728 vs 20260729 = 1.3590 Angstrom.
+
+Representative pose:
+Seed 20260729, mode 1.
+
+Linoleate geometry quality control:
+Minimum protein-ligand heavy-atom distance = 2.822 Angstrom.
+Nearest pair = ligand oxygen to TYR52 hydroxyl oxygen.
+Contacts below 1.5 Angstrom = 0.
+Contacts below 2.0 Angstrom = 0.
+No severe steric clash was identified.
+
+PLIP-supported hydrophobic contacts:
+ALA40, ILE41, TYR106, PHE123, LYS125, TYR132, and LYS134.
+
+Most credible polar contacts:
+ARG81 and LYS134.
+TYR52 had weak geometry and TYR138 was too long to emphasize.
+
+LCN2 interpretation:
+The three top poses were reasonably reproducible, but the underlying
+1QQS/DKA global redocking protocol failed.
+Therefore, LCN2-linoleate results may only be described as exploratory
+pose-generation and interaction hypotheses.
+They must not be called validated docking or confirmed binding.
+
+======================================================================
+3. LTF / LINOLEIC ACID WITH FATTY-ACID CLASS CONTROLS
+======================================================================
+
+Primary exploratory pair:
+LTF with linoleic acid, PubChem CID 5280450.
+
+Fatty-acid class controls:
+Palmitic acid, PubChem CID 985.
+Stearic acid, PubChem CID 5281.
+
+Structure:
+PDB 1LFG, diferric human lactoferrin.
+Resolution = 2.20 Angstrom.
+Protein chain A was used.
+Retained:
+FE A:701, FE A:702, CO3 A:703, and CO3 A:704.
+Crystallographic waters and glycans were removed.
+
+Receptor repair:
+ARG86 and GLU637 had documented missing side-chain atoms.
+Ten missing heavy atoms were added.
+All 5322 original experimental protein atom coordinates were preserved:
+coordinate RMSD = 0.000000 Angstrom;
+maximum deviation = 0.000000 Angstrom.
+
+Validation boundary:
+1LFG contains no fatty-acid co-crystal ligand.
+No fatty-acid redocking validation was possible.
+All LTF fatty-acid results are EXPLORATORY ONLY.
+
+Pocket detection:
+fpocket 4.2.2.
+Pockets were frozen before docking.
+
+N-lobe:
+fpocket Pocket 2.
+Box center = -38.505 18.934 2.738.
+Box size = 26 24 30 Angstrom.
+
+C-lobe:
+fpocket Pocket 1.
+Box center = 9.338 32.764 24.102.
+Box size = 24 22 28 Angstrom.
+
+Ligand preparation:
+All fatty acids were prepared as carboxylate anions, formal charge -1.
+Linoleate and palmitate used PubChem 3D conformers.
+Stearate 3D coordinates were generated using RDKit ETKDGv3,
+seed 20260727, followed by MMFF optimization.
+
+Docking:
+Vina 1.2.7.
+Exhaustiveness = 64.
+Number of modes = 20.
+Energy range = 6 kcal/mol.
+Seeds = 20260727, 20260728, and 20260729.
+Both frozen lobe boxes were used for every ligand.
+Total runs = 18.
+Each run generated 20 poses.
+
+Best-ranked scores (kcal/mol):
+
+Ligand       Lobe     Seed 20260727  Seed 20260728  Seed 20260729
+Linoleate    N-lobe       -6.360         -6.630         -6.473
+Linoleate    C-lobe       -6.152         -6.873         -6.946
+Palmitate    N-lobe       -6.055         -6.057         -5.892
+Palmitate    C-lobe       -5.955         -5.893         -6.145
+Stearate     N-lobe       -6.445         -6.029         -5.981
+Stearate     C-lobe       -6.341         -6.001         -6.254
+
+Cross-seed convergence:
+
+Linoleate N-lobe:
+One recurrent pair, RMSD = 0.6728 Angstrom.
+The third pose differed by approximately 5.4 Angstrom.
+
+Linoleate C-lobe:
+One recurrent pair, RMSD = 0.7507 Angstrom.
+The third pose differed by approximately 6.6 Angstrom.
+
+Palmitate N-lobe:
+No convergence; pairwise RMSD = 3.1988 to 4.6679 Angstrom.
+
+Palmitate C-lobe:
+Partial convergence; one pair RMSD = 1.5532 Angstrom.
+Other pairwise RMSDs = 3.5325 and 3.7517 Angstrom.
+
+Stearate N-lobe:
+No convergence; pairwise RMSD = 2.9279 to 5.5540 Angstrom.
+
+Stearate C-lobe:
+No clear convergence; pairwise RMSD = 2.0794 to 3.1874 Angstrom.
+
+LTF geometry quality control:
+All 18 best-ranked poses were checked.
+Protein-ligand contacts below 1.5 Angstrom = 0.
+Protein-ligand contacts below 2.0 Angstrom = 0.
+
+N-lobe minimum distance to FE701:
+5.261 to 6.805 Angstrom.
+
+C-lobe minimum distance to FE702:
+6.013 to 6.431 Angstrom.
+
+No pose showed direct Fe coordination at <=3.0 Angstrom.
+No pose showed near-Fe placement at <=4.0 Angstrom.
+No obvious metal-driven docking artifact was identified.
+
+Representative linoleate poses:
+N-lobe = seed 20260728, mode 1.
+C-lobe = seed 20260729, mode 1.
+These were selected from the recurrent two-seed clusters, not solely by score.
+
+N-lobe PLIP:
+Hydrophobic contacts:
+VAL11, ASP60, PHE63, PHE183, PHE190, and ASP297.
+
+Most credible polar contact:
+HIS253 to linoleate carboxylate,
+distance = 3.27 Angstrom,
+angle = 165.88 degrees.
+
+THR58 and LYS301 contacts had weak angular geometry and should not be
+emphasized.
+
+C-lobe PLIP:
+Hydrophobic contacts:
+VAL350, MET392, TYR398, TYR526, and ASN640.
+
+Most credible polar contacts:
+THR529 backbone to carboxylate,
+distance = 3.09 Angstrom,
+angle = 163.90 degrees.
+
+ASN640 side chain to carboxylate,
+distance = 2.92 Angstrom,
+angle = 154.66 degrees.
+
+TYR528, the THR529 side-chain contact, and GLY530 were weak or auxiliary.
+
+LTF interpretation:
+Score ranges overlapped among linoleate, palmitate, and stearate.
+No fatty acid achieved complete three-seed convergence in either lobe.
+The results do not support linoleate selectivity or a validated specific
+fatty-acid binding pocket in LTF.
+They may only be reported as exploratory poses and class-control sensitivity
+analysis.
+
+======================================================================
+OVERALL EVIDENCE HIERARCHY
+======================================================================
+
+ARG1-puerarin:
+Highest computational support among the three pairs.
+Alternative ARG1 co-crystal validation using 3KV2/NNH passed in three seeds,
+and puerarin top poses were highly reproducible.
+Still not experimental binding evidence.
+
+LCN2-linoleate:
+Exploratory only.
+The co-crystal DKA global redocking protocol failed despite a stable
+local crystal-pose optimization.
+Candidate pose reproducibility does not rescue the failed validation.
+
+LTF-linoleate:
+Exploratory only.
+No fatty-acid co-crystal validation was available.
+Controls showed overlapping scores and incomplete pose convergence.
+No linoleate selectivity claim is supported.
+
+PROHIBITED CROSS-TARGET INTERPRETATION
+
+Do not rank ARG1, LCN2, and LTF by docking score.
+Do not compare their scores as if measured on a common affinity scale.
+Do not state that all three target-ligand pairs were validated.
+Do not convert docking observations into causal therapeutic mechanisms.
+Do not omit the failed LCN2 validation or absent LTF validation.
+
+RECOMMENDED PAPER LANGUAGE
+
+ARG1:
+"An alternative ARG1 co-crystal redocking protocol based on PDB 3KV2 and
+nor-NOHA reproduced the crystallographic pose in three independent runs
+(symmetry-corrected heavy-atom RMSD 1.24-1.29 Angstrom). Within this validated
+computational setup, puerarin yielded a reproducible candidate pose across
+three seeds. These findings support a structural interaction hypothesis but
+do not demonstrate experimental target engagement."
+
+LCN2:
+"Unbiased global redocking of the 1QQS co-crystallized decanoic acid did not
+meet the predefined RMSD criterion, although local optimization retained the
+crystal pose. Consequently, linoleate docking was treated solely as an
+exploratory pose-generation analysis and not as validated binding evidence."
+
+LTF:
+"Because 1LFG lacks a co-crystallized fatty-acid ligand, fpocket-defined
+N- and C-lobe regions were examined exploratorily. Linoleate, palmitate, and
+stearate showed overlapping docking-score ranges and incomplete cross-seed
+pose convergence. The results therefore do not establish a specific or
+selective LTF fatty-acid binding site."

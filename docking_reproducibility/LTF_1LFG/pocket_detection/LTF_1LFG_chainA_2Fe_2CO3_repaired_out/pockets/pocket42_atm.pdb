@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : -0.1234
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8276
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5582
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 18.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 125.3375
+HEADER 10 - Pocket volume (convex hull)       : 1.5498
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4706
+ATOM   1061   CZ PHE A 135     -21.698  39.259 -13.169  0.00  0.00           C 0
+ATOM   1816  OD1 ASN A 234     -21.317  34.165 -16.752  0.00  0.00           O 0
+ATOM   1815  ND2 ASN A 234     -19.406  35.148 -17.254  0.59  6.56           N 0
+ATOM   1797    O PRO A 232     -17.952  32.217 -14.167  0.68  9.64           O 0
+ATOM    840   CB ASN A 107     -22.094  37.357 -16.458  0.00  0.00           C 0
+ATOM    835  CD2 LEU A 106     -22.232  31.875 -12.264  0.00  0.00           C 0
+ATOM   1798   CB PRO A 232     -18.156  30.056 -11.952  0.00  0.00           C 0
+ATOM   1023  CG2 THR A 131     -21.386  33.473  -8.452  0.00  0.00           C 0
+ATOM    833   CG LEU A 106     -23.354  32.804 -12.764  0.00  0.00           C 0
+ATOM    831    O LEU A 106     -24.526  35.523 -13.726  0.00  0.00           O 0
+ATOM    830    C LEU A 106     -24.188  35.010 -14.824  0.00  0.00           C 0
+ATOM   1060  CE2 PHE A 135     -22.205  38.759 -11.959  0.00  0.00           C 0
+ATOM   1021    O THR A 131     -21.103  36.913  -8.160  0.39  4.29           O 0
+TER
+END

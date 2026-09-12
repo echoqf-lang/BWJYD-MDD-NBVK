@@ -1,0 +1,5 @@
+compound,PubChem_CID,formula,MW_g_mol,isomeric_SMILES,InChIKey,docking_role,target_context,structure_QC,docking_input_path
+Puerarin,5281807,C21H20O9,416.38,C1=CC(=C(C=C1C2C(C(C(C(O2)CO)O)O)O)O)C3=CC=C(C=C3)O)O,HKEAFJYKMMKDOR-VPRICQMDSA-N,primary ligand,ARG1,PubChem identity audited; neutral docking form,ARG1_3KV2/07_puerarin_input/puerarin_CID5281807.pdbqt
+Linoleic acid,5280450,C18H32O2,280.45,CCCCC/C=C\C/C=C\CCCCCCCC(=O)O,OYHQOLUKZRVURQ-HZJYTTRNSA-N,primary exploratory ligand,LCN2; LTF,PubChem identity audited; carboxylate used for docking,LTF_1LFG/04_ligand_pdbqt/linoleate_CID5280450.pdbqt
+Palmitic acid,985,C16H32O2,256.42,CCCCCCCCCCCCCCCC(=O)O,IPCSVZSSVZVIGE-UHFFFAOYSA-N,fatty-acid class control,LTF,PubChem identity audited; carboxylate used for docking,LTF_1LFG/04_ligand_pdbqt/palmitate_CID985.pdbqt
+Stearic acid,5281,C18H36O2,284.48,CCCCCCCCCCCCCCCCCC(=O)O,QIQXTHQIDYTFRH-UHFFFAOYSA-N,fatty-acid class control,LTF,PubChem identity audited; ETKDGv3/MMFF carboxylate,LTF_1LFG/04_ligand_pdbqt/stearate_CID5281.pdbqt

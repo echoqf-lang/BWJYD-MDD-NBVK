@@ -1,0 +1,5 @@
+run_id	software	parameter	integer_value	purpose
+run01	AutoDock Vina	seed	20260727	Independent docking run 1
+run02	AutoDock Vina	seed	20260728	Independent docking run 2
+run03	AutoDock Vina	seed	20260729	Independent docking run 3
+conformer01	RDKit ETKDGv3	randomSeed	20260727	Stearate three-dimensional conformer generation

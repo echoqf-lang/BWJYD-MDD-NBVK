@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.0292
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9230
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4997
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 31.7500
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 186.9075
+HEADER 10 - Pocket volume (convex hull)       : 1.7311
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4118
+ATOM   3158    O VAL A 410       7.392  33.500   1.392  0.42  2.14           O 0
+ATOM   4685   CE LYS A 610       5.573  36.722  -2.801  0.00  0.00           C 0
+ATOM   4684   CD LYS A 610       5.360  36.639  -1.314  0.00  0.00           C 0
+ATOM   3169  CD2 LEU A 411       9.386  36.525   1.510  0.00  0.00           C 0
+ATOM   5017   CB ARG A 652      12.419  35.000  -1.668  0.00  0.00           C 0
+ATOM   5014   CA ARG A 652      12.091  34.415  -0.275  0.00  0.00           C 0
+ATOM   4686   NZ LYS A 610       4.907  35.489  -3.382  0.68  8.75           N 1
+ATOM   5042    N GLY A 655      10.654  28.767  -4.399  0.00  0.00           N 0
+ATOM   5032    N HIS A 654      12.132  30.610  -2.861  0.38  3.28           N 0
+ATOM   5060  CG2 THR A 657       6.752  29.059  -2.635  0.00  0.00           C 0
+ATOM   5024    N LEU A 653      11.405  32.118  -0.532  0.36  1.09           N 0
+ATOM   5028   CB LEU A 653      10.025  30.197  -0.127  0.00  0.00           C 0
+ATOM   5018   CG ARG A 652      12.218  36.521  -1.657  0.00  0.00           C 0
+ATOM   5019   CD ARG A 652      11.780  37.101  -2.954  0.00  0.00           C 0
+TER
+END

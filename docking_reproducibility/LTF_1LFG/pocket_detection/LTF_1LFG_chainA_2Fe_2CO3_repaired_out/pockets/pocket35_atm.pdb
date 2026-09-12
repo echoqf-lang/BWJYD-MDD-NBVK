@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    35:
+HEADER 0  - Pocket Score                      : -0.0910
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9608
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5457
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -5.8333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 177.6945
+HEADER 10 - Pocket volume (convex hull)       : 3.6200
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   2843    O LEU A 364       4.543  52.170  11.154  0.55  3.21           O 0
+ATOM   4760   NZ LYS A 619       7.224  54.850   8.128  0.58  5.47           N 1
+ATOM   2862  OE2 GLU A 366       3.714  56.051   7.727  0.00  0.00           O 1
+ATOM   4842   NZ LYS A 630       8.088  58.111  13.239  0.00  0.00           N 1
+ATOM   4812  OD2 ASP A 626      10.049  54.360  10.558  0.73  2.14           O 1
+ATOM   2839    O GLY A 363       1.318  53.515  13.992  0.00  0.00           O 0
+ATOM   2841   CA LEU A 364       3.727  52.335  13.346  0.00  0.00           C 0
+ATOM   2859   CG GLU A 366       2.368  54.356   8.259  0.00  0.00           C 0
+ATOM   2845   CG LEU A 364       5.775  53.015  14.887  0.00  0.00           C 0
+ATOM   2842    C LEU A 364       3.597  51.847  11.920  0.00  0.00           C 0
+ATOM   4840   CD LYS A 630       9.017  56.383  14.641  0.00  0.00           C 0
+ATOM   2846  CD1 LEU A 364       4.863  53.461  16.024  0.00  0.00           C 0
+ATOM   2854    N GLU A 366       1.034  52.447   9.634  0.56  1.09           N 0
+ATOM   2855   CA GLU A 366       0.221  53.215   8.659  0.00  0.00           C 0
+ATOM   4841   CE LYS A 630       7.984  57.462  14.593  0.00  0.00           C 0
+TER
+END

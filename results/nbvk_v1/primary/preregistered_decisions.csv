@@ -1,0 +1,3 @@
+"hypothesis","supported","rule"
+"triple_damage",FALSE,"D_E>0; topology-matched BH FDR<0.05; observed>null_q975"
+"triple_synergy",TRUE,"Syn_Bliss>0; topology-matched synergy-family BH FDR<0.05"
